@@ -1,0 +1,15 @@
+{
+	"name": "overlapinteractive/vercel",
+	"autoload": {
+		"psr-4": {
+			"Overlapinteractive\\Vercel\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "overlapinteractive",
+			"email": "dev@overlapinteractive.com"
+		}
+	],
+	"require": {}
+}

@@ -1,0 +1,86 @@
+.vercel-dashboard {
+  padding-right: 20px;
+
+  .vercel-filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .vercel-heading {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+
+    button.action {
+      width: 150px;
+    }
+  }
+
+  .vercel-table {
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid #c3c4c7;
+
+    td,
+    th {
+      padding: 8px;
+    }
+    tbody {
+      tr:nth-child(odd) {
+        background-color: #f6f7f7;
+      }
+    }
+
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      color: #2c3338;
+      background-color: #fff;
+    }
+  }
+
+  .react-tabs__tab-panel {
+    max-width: 100%;
+  }
+
+  .setting-input {
+    margin-bottom: 1rem;
+    display: flex;
+    label {
+      width: 150px;
+      display: inline-block;
+    }
+    input[type=text] {
+      height: 32px;
+      width: 300px;
+    }
+  }
+
+  .vercel-loader {
+    justify-content: center;
+  }
+
+  .btn-revalidate {
+    width: 100%;
+  }
+
+  .vercel-revalidated-status {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vercel-revalidated-status span svg {
+    width: 20px;
+    color: #0ab70a;
+  }
+
+  .vercel-open-link {
+    display: inline-block;
+  }
+}
